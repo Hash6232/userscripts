@@ -32,5 +32,5 @@ function updateValues() {
 }
 
 function calcNaturalCoord(dim, ogDim, coord) {
-	return Math.round((coord * ogDim) / dim)
+  return Math.round((coord * ogDim) / dim)
 }
